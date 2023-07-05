@@ -2,7 +2,6 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     max-width: 1440px;
-    width: 80%;
 }
 
 
@@ -15,16 +14,9 @@ body {
 
 .container {
 height: 80%;
-width: 100%;
-margin: 0 auto;
 
 }
-.content-container {
-    margin-top: 80px;
-}
-header{
-    margin-top: 40px;
-}
+
 header h1 {
     display: inline-flex;
     color: #000;
@@ -35,8 +27,8 @@ header h1 {
     line-height: normal;
     letter-spacing: -1.62px;
     font-family: 'PT Serif', serif;
-    margin-left: 34px;
-    margin-right: 260px;
+
+    margin-right: 215px;
 
    
     }
@@ -48,13 +40,11 @@ header h1 {
     }
     header p {
         font-family: 'Poppins'!important; 
-        margin-left: 540px;
-        margin-top: 0px;
+        margin-left: 460px;
         display: flex;
         width: 439px;
         height: 87px;
-        flex-direction:column;
-        
+        flex-direction: column;
         flex-shrink: 0;
         color: #000;
         font-size: 18px;
@@ -65,15 +55,13 @@ header h1 {
     }
 
 .img {
-    
     display: inline-block;
-    margin: 10px;
-    margin-right: 46.64px;
+    margin: 56.64px;
 }
     .img img {
         
-        width: 238px;
-        height: 336.496px;
+        width: 300px;
+        height: 426.496px;
         flex-shrink: 0;
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         
@@ -92,26 +80,26 @@ header h1 {
         display: inline-block;
         vertical-align:top;
         margin: 56.64px;
-        margin-right: 113.2px;
         padding-top: 100px;
   
     } 
     .a img {
-        width: 238px;
-        height: 336.496px;
+     
+        width: 300px;
+        height: 426.496px;
         flex-shrink: 0;
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
 
 .right-text {
-    
+    margin: 0 auto;
     display: inline-flex;
     position: absolute;
     rotate: 90deg;
     font-family: 'PT Serif', serif;
-    padding: 0px;
+    margin-top:50px;
+    margin-left: 0px;
     padding-left: 0;
-    margin: 0px;
 }
 
 footer{
