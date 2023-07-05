@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1440px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Inconsolata&family=PT+Serif:wght@700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.container {
+height: 80%;
+
+}
+
+header h1 {
+    display: inline-flex;
+    color: #000;
+    font-size: 36px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.62px;
+    font-family: 'PT Serif', serif;
+
+    margin-right: 215px;
+
+   
+    }
+
+    header h3 {
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        display: inline-flex;
+    }
+    header p {
+        font-family: 'Poppins'!important; 
+        margin-left: 460px;
+        display: flex;
+        width: 439px;
+        height: 87px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+    }
+
+.img {
+    display: inline-block;
+    margin: 56.64px;
+}
+    .img img {
+        
+        width: 300px;
+        height: 426.496px;
+        flex-shrink: 0;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        
+    }
+    .img p {
+        font-family: 'Poppins';
+        font-weight: bold;  
+    }
+    .a p {
+        font-family: 'Poppins';
+        font-weight: bold;  
+    }
+
+    .a {
+       
+        display: inline-block;
+        vertical-align:top;
+        margin: 56.64px;
+        padding-top: 100px;
+  
+    } 
+    .a img {
+     
+        width: 300px;
+        height: 426.496px;
+        flex-shrink: 0;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+
+.right-text {
+    margin: 0 auto;
+    display: inline-flex;
+    position: absolute;
+    rotate: 90deg;
+    font-family: 'PT Serif', serif;
+    margin-top:50px;
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+footer{
+    text-align: center;
+}
